@@ -22,10 +22,13 @@
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
+    "@nestjs/config": "^2.1.0",
     "@nestjs/core": "^8.0.0",
+    "@nestjs/mongoose": "^9.1.0",
     "@nestjs/platform-express": "^8.0.0",
     "@nestjs/schedule": "^2.0.1",
     "cheerio": "^1.0.0-rc.11",
+    "mongoose": "^6.3.5",
     "puppeteer": "^14.2.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",

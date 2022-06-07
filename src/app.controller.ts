@@ -7,8 +7,6 @@ export class AppController {
 
   @Get()
   async getHello() {
-    this.appService.getCryptoNames();
-
-    return this.appService.getHello();
+    return 'hello';
   }
 }
